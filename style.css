@@ -1,0 +1,168 @@
+body{
+	background:url(fon1.jpg);
+}
+
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+
+header{
+	background: rgba(204, 51, 0,.8);
+	color:#FFf;
+	height: 100px;
+	box-shadow: 0 0 15px black;
+border-radius: 100px 100px 0 0;
+}
+
+nav{
+	background:rgba(255, 102, 0,.8);
+	box-shadow: 0 0 15px black;
+	border-radius: 30px;
+}
+
+main{
+	background: rgba(51, 51, 51,.9);
+	
+	box-shadow: 0 0 15px black;
+	margin: 2% 0;
+	padding: 40px;
+	border-radius: 30px;
+}
+
+footer{
+	background: rgba(204, 102, 51,.8);
+	height: 50px;
+	box-shadow: 0 0 15px black;
+	border-radius: 0 0 100px 100px;
+}
+
+ul{
+	text-align: center;
+}
+
+li{
+	box-shadow: 0 0 3px black;
+	
+	display: inline-block;
+	width: 10%;
+	height: 40px;
+	line-height: 40px;
+	background: orange;
+	margin: 1%;
+	transition: 1s;
+	border-radius: 20px;
+}
+
+li:hover{
+background: red;
+transform: translateY(7px);
+transition: 1s;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	display: block;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	font-family: cursive;
+}
+
+h5{
+	text-align: center;
+
+}
+
+h2{
+	text-align: center;
+
+}
+
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#akkordion {
+width: 90%; 
+
+  margin: auto;
+}
+
+#akkordion  h3 {
+padding: 15px;    
+background:#ccc;
+}
+
+#akkordion li {
+padding: 15px;    
+background: #aeaeae; 
+list-style: none; 
+height: 80px;
+width: 100%; 
+overflow: hidden;    
+transition: 1s;
+transform: scale(0.8);
+}
+
+#akkordion p {
+  margin: 10px;
+}
+
+#akkordion:hover li {
+width: 100%; 
+}
+
+#akkordion li:hover {
+height: 700px; 
+width:100%; 
+}
+
+.img img {
+	width: 250px;
+	border: 8px solid orange ;
+	transition: 1s;
+	height: 200px;
+}
+
+.img img:hover {
+	width: 330px;
+	transition: 1s;
+}
+
+.img {
+	text-align: center;
+}
+
+.v img {
+	width: 500px;
+	float: left;
+	margin: 20px; 
+}
+
+.clear {
+	clear: both;
+}
+
+h2 {
+	color: orange;
+}
+
+h3 {
+	color: gray;
+}
+
+.main img {
+	margin: 30px auto;
+	display: block;
+	box-shadow: 0 0 20px;
+}
+footer {
+	padding-top: 2px;
+}
